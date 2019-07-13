@@ -1,10 +1,9 @@
-* This tutorial is in progress...
 - prepared for [[https://www.meetup.com/Data-Science-and-Engineering-Club/events/262612917/][Data Science and Engineering Club]] dublin for 13th July
 
 * Introduction
-  Dash is a python fromework built on plotly, flask and react. We will make graphs with sliders, dropdowns and other UI elements.
+  Dash is a python fromework built on plotly, flask and react. Here we will make graphs with sliders, dropdowns and other UI elements.
 * Installation
-** create a virtual environment for your dash project
+** (optional) create a virtual environment for your dash project
 In python run:
 #+begin_src python
 python -m venv ~/.virtualenvs/dash_tutarial
@@ -14,3 +13,15 @@ source ~/.virtualenvironments/dash_tutorial/bin/activate
 #+begin_src bash
 pip install requirements.txt
 #+end_src
+* Contents
+** Data
+   [[https://raw.githubusercontent.com/benjaminsuarez/sklearn_workshop/master/PPR-ALL.csv][Irish Property Register]]: A dataset of all Irish houses sold between 2010 and 2018
+** Scripts
+   [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/00_hello_world.py][00 hello world]]: just what you need to set up the dash server
+   [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/01_html_components.py][01 html components]]: Decorate your app with html
+   [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/02_static_graph.py][02 static graph]]: Create a graph using Irish property data
+   [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/03_dash_components.py][03 dash components]]: Try out some Dash interactive components
+   [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/04_interactive_graph.py][04 interactive graph]]: Making your graph interactive with callbacks
+   [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/05_multiple_graphs.py][05 multiple graphs]]: Create an app with multiple graphs and interactions
+
+I can recommend taking a look at the [[http://dash-docs.herokuapp.com/][Dash user guide]] for documentation on the multiple components and a variety of example code.

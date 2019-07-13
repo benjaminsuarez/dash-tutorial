@@ -12,10 +12,10 @@ df2010 = df[df.year==2010]
 
 app = dash.Dash(__name__)
 app.layout = html.Div(children = [
-    html.H1("Ben's Dash App on the Irish Property Market", style = {"text-align":"center"}),
-    html.P("This is data from the irish property register, from 2010"),
-    dcc.Graph(id = "my id", figure = {
-              'data': [go.Scatter(
+    html.H1("Irish Property Market", style = {"text-align":"center"}),
+    html.P("This is data from the irish property register, from 2010, for county Clare."),
+    dcc.Graph(figure = {
+        'data': [go.Scatter(
             x=df2010[df2010['County'] == "Clare"]['date'],
             y=df2010[df2010['County'] == "Clare"]['Price'],
             text= "Clare",
@@ -31,14 +31,13 @@ app.layout = html.Div(children = [
                 'title': 'date',
             },
             yaxis={
-                'title': 'price',
+                'title': 'Price (log)',
                 'type': 'log',
             },
             margin={'l': 80, 'b': 100, 't': 10, 'r': 0},
             hovermode='closest'
-        )}
-
-    )
+        )
+    })
 ])
 
 if __name__ == "__main__":
