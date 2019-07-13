@@ -1,7 +1,7 @@
 * This tutorial is in progress...
 - prepared for [[https://www.meetup.com/Data-Science-and-Engineering-Club/events/262612917/][Data Science and Engineering Club]] dublin for 13th July
 
-* Introdution
+* Introduction
   Dash is a python fromework built on plotly, flask and react. We will make graphs with sliders, dropdowns and other UI elements.
 * Installation
 ** create a virtual environment for your dash project
