@@ -3,7 +3,7 @@
 * Introduction
   Dash is a python fromework built on plotly, flask and react. Here we will make graphs with sliders, dropdowns and other UI elements.
 * Installation
-** (optional) create a virtual environment for your dash project
+** (optional) create a virtual environment for your Dash project
 In python run:
 #+begin_src python
 python -m venv ~/.virtualenvs/dash_tutarial
@@ -17,10 +17,10 @@ pip install requirements.txt
 ** Data
    [[https://raw.githubusercontent.com/benjaminsuarez/sklearn_workshop/master/PPR-ALL.csv][Irish Property Register]]: A dataset of all Irish houses sold between 2010 and 2018
 ** Scripts
-   - [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/00_hello_world.py][00 hello world]]: just what you need to set up the dash server
+   - [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/00_hello_world.py][00 hello world]]: just what you need to set up the Dash server
    - [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/01_html_components.py][01 html components]]: Decorate your app with html
    - [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/02_static_graph.py][02 static graph]]: Create a graph using Irish property data
-   - [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/03_dash_components.py][03 dash components]]: Try out some Dash interactive components
+   - [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/03_dash_components.py][03 Dash components]]: Try out some Dash interactive components
    - [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/04_interactive_graph.py][04 interactive graph]]: Making your graph interactive with callbacks
    - [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/05_multiple_graphs.py][05 multiple graphs]]: Create an app with multiple graphs and interactions
 

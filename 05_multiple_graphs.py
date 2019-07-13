@@ -84,7 +84,7 @@ def update_figure(selected_year):
     dff = df[df.year == selected_year]
     return {
         "data":[{"x":dff["County"].sort_values().unique(), "y":dff.groupby("County")["Price"].median(), "type":"bar"}],
-        "layout":{"title":"Summary"}
+        "layout":{"title":"Median Prices Per County"}
 }
             
 
