@@ -10,7 +10,7 @@ app.layout = html.Div([
                 "backgroundColor" : "rgb(250, 250, 250)",
                 "borderBottom" : "thin lightgrey solid",
                 "textAlign" : "center",
-#                "border" : "1px solid black",
+                "border" : "1px solid black",
             }),
     html.H3("You can tune the look and feel of your dash apps using html components.")
 ])
