@@ -23,5 +23,7 @@ pip install requirements.txt
    - [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/03_dash_components.py][03 Dash components]]: Try out some Dash interactive components
    - [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/04_interactive_graph.py][04 interactive graph]]: Making your graph interactive with callbacks
    - [[https://github.com/benjaminsuarez/dash-tutorial/blob/master/05_multiple_graphs.py][05 multiple graphs]]: Create an app with multiple graphs and interactions
-
+   - [[ https://github.com/benjaminsuarez/dash-tutorial/blob/master/06_financial_app.py][06 financial app]]: an app to help with financial planning
 I can recommend taking a look at the [[http://dash-docs.herokuapp.com/][Dash user guide]] for documentation on the multiple components and a variety of example code.
+** Todo
+   - A deployment solution with connection to sql
